@@ -8,8 +8,11 @@ __pycache__/
 venv/
 ENV/
 
-# Environment
+# Environment / secrets
 .env
+
+# Local development notes (kept on machine only)
+docs/
 
 # IDE
 .vscode/
@@ -17,12 +20,13 @@ ENV/
 *.swp
 *.swo
 
-# Testing
+# Testing / lint caches
 .pytest_cache/
+.ruff_cache/
 .coverage
 htmlcov/
 
-# Data (keep structure, ignore large files)
+# Data (keep structure, ignore large source PDF)
 data/raw/*.pdf
 
 # OS
